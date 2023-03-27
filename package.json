@@ -1,0 +1,24 @@
+{
+  "name": "webgpu-utils",
+  "version": "0.0.1",
+  "description": "A collection of utilities for WebGPU programs",
+  "main": "index.js",
+  "type": "module" ,
+  "scripts": {
+    "build": "tsc --build",
+    "test": "tsc --build && node out/test/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/ben-clayton/webgpu-utils"
+  },
+  "author": "",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "@webgpu/types": "^0.1.30"
+  },
+  "dependencies": {
+    "typescript": "^5.0.2"
+  }
+}
